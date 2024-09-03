@@ -1,207 +1,134 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sekolah SMK YASBAM - Situs Resmi</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #8a2be2;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            background-color: #0033aa;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-            display: inline-block;
-        }
-        nav ul li a:hover {
-            background-color: #002a80;
-        }
-        .container {
-            width: 85%;
-            margin: 20px auto;
-        }
-        .section {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            margin-top: 0;
-        }
-        footer {
-            background-color: #0044cc;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        .gallery img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 10px;
-        }
-        .news {
-            display: flex;
-            flex-direction: column;
-        }
-        .news article {
-            margin-bottom: 15px;
-        }
-        .news article h3 {
-            margin: 0;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        .contact-form button {
-            background-color: #0044cc;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background-color: #0033aa;
-        }
-    </style>
+<title>SMK Yasbam</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("ybm.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
 </head>
 <body>
-    <header>
-        <h1>SEKOLAH SMK YASBAM</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Tentang Kami</a></li>
-                <li><a href="#program">Program Akademik</a></li>
-                <li><a href="#facilities">Fasilitas</a></li>
-                <li><a href="#schedule">Jadwal Kegiatan</a></li>
-                <li><a href="#news">Berita</a></li>
-                <li><a href="#gallery">Galeri</a></li>
-                <li><a href="#contact">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <div class="container">
-        <section id="about" class="section">
-            <h2>Tentang Kami</h2>
-            <p>Sekolah ABC adalah lembaga pendidikan yang berdedikasi untuk menyediakan pendidikan berkualitas tinggi. Kami memiliki fasilitas modern dan staf pengajar yang berpengalaman, serta komitmen untuk mendukung perkembangan akademik dan sosial siswa.</p>
-        </section>
-       <img src="logo.JFIF" alt="sekolah yasbam">
-
-        <section id="program" class="section">
-            <h2>Program Akademik</h2>
-     
-            <p>Kami menawarkan berbagai program akademik untuk memenuhi kebutuhan pendidikan siswa:</p>
-            <ul>
-                <li>Program Pendidikan Dasar</li>
-                <li>Program Pendidikan Menengah</li>
-                <li>Program Pendidikan Lanjutan</li>
-                <li>Program Keterampilan dan Kejuruan</li>
-            </ul>
-        </section>
-
-        <section id="facilities" class="section">
-            <h2>Fasilitas</h2>
-            <p>Fasilitas di sekolah kami mencakup:</p>
-            <ul>
-                <li>Kelas yang nyaman dan modern</li>
-                <li>Laboratorium Sains</li>
-                <li>Perpustakaan</li>
-                <li>Lapangan Olahraga</li>
-                <li>Ruang Musik dan Seni</li>
-                 <li>lab untuk praktek</li>
-            </ul>
-
-        </section>
-
-        <section id="schedule" class="section">
-            <h2>Jadwal Kegiatan</h2>
-            <p>Jadwal kegiatan rutin di Sekolah ABC:</p>
-            <ul>
-                <li>Senin - Jumat: 08:00 - 15:00 - Kegiatan Pembelajaran</li>
-                <li>Sabtu: 09:00 - 12:00 - Kegiatan Ekstrakurikuler</li>
-                <li>Libur Nasional - Tanggal yang ditetapkan</li>
-            </ul>
-        </section>
-
-        <section id="news" class="section">
-            <h2>Berita Terbaru</h2>
-            <div class="news">
-                <article>
-                    <h3>Berita 1</h3>
-                    <p>Pelantikan Pramuka – Penegak Bantara.</p>
-                </article>
-                <article>
-                    <h3>Berita 2</h3>
-                    <p>Pelantikan Pramuka – Penegak Bantara.</p>
-                </article>
-            </div>
-        </section>
-
-        <section id="gallery" class="section">
-            <h2>Galeri Foto</h2>
-            <div class="gallery">
-                <img src="LOGO.JFIF" alt="Foto 1">
-                <img src="poto ybm.JFIF" alt="Foto 2">
-                <img src="BARU.JFIF" alt="Foto 3">
-            </div>
-        </section>
-
-        <section id="contact" class="section">
-            <h2>Kontak</h2>
-            <p>Untuk informasi lebih lanjut, silakan hubungi kami:</p>
-            <p>Email: info@YASBAM44.com</p>
-            <p>Telepon: 085715482017</p>
-            <p>Alamat: Jl. harjasari No. 456, bogor</p>
-            <h3>Formulir Kontak</h3>
-            <form class="contact-form">
-                <input type="text" name="name" placeholder="Nama" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <textarea name="message" rows="4" placeholder="Pesan" required></textarea>
-                <button type="submit">Kirim Pesan</button>
-            </form>
-        </section>
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
     </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="https://docs.google.com/forms/d/1jC2kzCBTPJGnPW-bfruTDYS9YQ3C2wAqfeBs0xFSM78/viewform?edit_requested=true" class="w3-button w3-block w3-black">DAFTAR</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="https://maps.app.goo.gl/qLCiVG49R4NeKKiq5" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
 
-    <footer>
-        <p>&copy; BY ALI AND ELIAS. SELALU CERIA.</p>
-    </footer>
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Birrul Walidain!</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">SMK YASBAM</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Jl. Raya HE Sukma Bakomsari No. 91 Bogor Selatan Kota Bogor, Jawa Barat</span>
+  </div>
+</header>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Example JavaScript code for interaction
-            console.log("Halaman siap!");
-        });
-    </script>
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Tentang SMK YASBAM</span></h5>
+    <p>SMK Yasbam adalah sekolah yang sangat peduli dengan pendidikan akademik dan juga nilai-nilai adab dan akhlak. Kami sangat berkomitmen untuk memberikan pendidikan yang menyeluruh dan mendalam tentang wawasan keislaman kepada seluruh siswa-siswi kami. Kami percaya bahwa lulusan SMK Yasbam tidak hanya pintar secara akademik, tetapi juga memiliki akhlak yang unggul, kuat dalam keimanannya, dan memiliki keinginan untuk berkontribusi secara aktif dalam masyarakat.</p>
+	<div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Mandiri, Religius, Berakhlaqul Karimah, Birrul Walidain untuk kehidupan yang berkah"</i></p>
+
+      <p>Smk Yasbam.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">KOMPETENSI KEAHLIAN</span></h5>
+<div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>TEKNIK KOMPUTER DAN JARINGAN</p>
+        <img src="tkj.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>OTOMISASI TATA KELOLA DAN PERKANTORAN</p>
+        <img src="otkp.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>TEKNIK BISNIS DAN SEPEDA MOTOR</p>
+        <img src="tsm.png" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Visi Misi</span></h5>
+    <p><span class="w3-tag">Visi Misi</span> Kami Adalah MEMPERSIAPKAN TENAGA KERJA BIDANG INFORMATIKA YANG CERDAS, RELIGIUS, KOMPETEN, MANDIRI SERTA BERAKHLAKUL KARIMAH SERTA MENCIPTAKAN TENAGA KERJA YANG BERTAQWA, BERKUALITAS, PROFESIONAL, MANDIRI SEHINGGA MAMPU BERPERAN AKTIF SEBAGAI FAKTOR KEUNGGULAN INDUSTRI DI INDONESIA</p>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by Smk Yasbam</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
 </body>
 </html>
